@@ -11,4 +11,15 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  get "categories", to: "categories#index"
+  get "categories/:id", to: "categories#show"
+
+
+
+
 end
+
+
+
+# resources :categories except: [ :edit, :update ]

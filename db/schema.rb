@@ -32,7 +32,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_30_092636) do
     t.string "name"
     t.text "description"
     t.string "image_url"
-    t.integer "rating"
+    t.float "rating"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
